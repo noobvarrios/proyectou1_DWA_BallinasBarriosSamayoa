@@ -1,0 +1,2108 @@
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/DWA/.git/
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bike.svg
+        codigo-pago.js
+        css/
+        header-clientes.php
+        img/
+        index.php
+        inicio-sesion.php
+        js/
+        menu-admin.php
+        menu-cliente.php
+        pago-interfaz.css
+        pago.php
+        procesar-credenciales.php
+        procesar.php
+        script.js
+        style.css
+        vendor/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (master)
+$ git add .
+warning: in the working copy of 'css/sb-admin-2.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/sb-admin-2.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'img/undraw_profile.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'img/undraw_profile_1.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'img/undraw_profile_2.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'img/undraw_profile_3.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'img/undraw_rocket.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/demo/chart-area-demo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/demo/chart-bar-demo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/demo/chart-pie-demo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/demo/datatables-demo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/sb-admin-2.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/sb-admin-2.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/js/bootstrap.bundle.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/js/bootstrap.bundle.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/js/bootstrap.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_alert.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_badge.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_breadcrumb.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_button-group.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_buttons.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_card.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_carousel.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_close.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_code.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_custom-forms.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_dropdown.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_forms.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_functions.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_grid.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_images.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_input-group.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_jumbotron.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_list-group.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_media.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_mixins.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_modal.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_nav.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_navbar.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_pagination.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_popover.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_print.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_progress.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_reboot.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_root.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_spinners.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_tables.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_toasts.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_tooltip.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_transitions.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_type.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_utilities.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/_variables.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/bootstrap-grid.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/bootstrap-reboot.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/bootstrap.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_alert.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_background-variant.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_badge.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_border-radius.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_box-shadow.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_breakpoints.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_buttons.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_caret.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_clearfix.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_deprecate.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_float.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_forms.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_gradients.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_grid-framework.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_grid.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_hover.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_image.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_list-group.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_lists.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_nav-divider.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_pagination.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_reset-text.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_resize.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_screen-reader.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_size.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_table-row.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_text-emphasis.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_text-hide.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_text-truncate.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_transition.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/mixins/_visibility.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_align.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_background.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_borders.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_clearfix.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_display.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_embed.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_flex.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_float.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_interactions.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_overflow.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_position.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_screenreaders.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_shadows.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_sizing.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_spacing.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_stretched-link.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_text.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/utilities/_visibility.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/bootstrap/scss/vendor/_rfs.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/chart.js/Chart.bundle.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/chart.js/Chart.bundle.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/chart.js/Chart.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/chart.js/Chart.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/dataTables.bootstrap4.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/dataTables.bootstrap4.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/dataTables.bootstrap4.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/dataTables.bootstrap4.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/jquery.dataTables.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/datatables/jquery.dataTables.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/LICENSE.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/attribution.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/all.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/all.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/brands.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/brands.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/fontawesome.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/fontawesome.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/regular.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/regular.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/solid.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/solid.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/svg-with-js.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/svg-with-js.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/v4-shims.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/css/v4-shims.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/all.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/all.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/brands.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/brands.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/conflict-detection.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/conflict-detection.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/fontawesome.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/fontawesome.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/regular.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/regular.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/solid.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/solid.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/v4-shims.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/js/v4-shims.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_animated.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_bordered-pulled.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_core.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_fixed-width.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_icons.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_larger.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_list.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_mixins.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_rotated-flipped.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_screen-reader.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_shims.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_stacked.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/_variables.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/brands.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/fontawesome.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/regular.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/solid.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/less/v4-shims.less', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/metadata/categories.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/metadata/icons.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/metadata/shims.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/metadata/sponsors.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_animated.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_bordered-pulled.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_core.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_fixed-width.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_icons.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_larger.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_list.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_mixins.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_rotated-flipped.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_screen-reader.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_shims.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_stacked.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/_variables.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/brands.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/fontawesome.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/regular.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/solid.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/scss/v4-shims.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/sprites/brands.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/sprites/regular.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/sprites/solid.svg', LF will be replaced by CRLF the next time Git touches it
+
+warning: in the working copy of 'vendor/fontawesome-free/webfonts/fa-brands-400.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/webfonts/fa-regular-400.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/fontawesome-free/webfonts/fa-solid-900.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery-easing/jquery.easing.compatibility.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery-easing/jquery.easing.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery/jquery.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery/jquery.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery/jquery.slim.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vendor/jquery/jquery.slim.min.js', LF will be replaced by CRLF the next time Git touches it
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (master)
+$ git commit -m "Version 1 - Proyecto completo DWA - Barrios Ballinas Samayoa"
+[master (root-commit) c6a624c] Version 1 - Proyecto completo DWA - Barrios Ballinas Samayoa
+ 1845 files changed, 179727 insertions(+)
+ create mode 100644 bike.svg
+ create mode 100644 codigo-pago.js
+ create mode 100644 css/sb-admin-2.css
+ create mode 100644 css/sb-admin-2.min.css
+ create mode 100644 header-clientes.php
+ create mode 100644 img/undraw_posting_photo.svg
+ create mode 100644 img/undraw_profile.svg
+ create mode 100644 img/undraw_profile_1.svg
+ create mode 100644 img/undraw_profile_2.svg
+ create mode 100644 img/undraw_profile_3.svg
+ create mode 100644 img/undraw_rocket.svg
+ create mode 100644 index.php
+ create mode 100644 inicio-sesion.php
+ create mode 100644 js/demo/chart-area-demo.js
+ create mode 100644 js/demo/chart-bar-demo.js
+ create mode 100644 js/demo/chart-pie-demo.js
+ create mode 100644 js/demo/datatables-demo.js
+ create mode 100644 js/sb-admin-2.js
+ create mode 100644 js/sb-admin-2.min.js
+ create mode 100644 menu-admin.php
+ create mode 100644 menu-cliente.php
+ create mode 100644 pago-interfaz.css
+ create mode 100644 pago.php
+ create mode 100644 procesar-credenciales.php
+ create mode 100644 procesar.php
+ create mode 100644 script.js
+ create mode 100644 style.css
+ create mode 100644 vendor/bootstrap/js/bootstrap.bundle.js
+ create mode 100644 vendor/bootstrap/js/bootstrap.bundle.js.map
+ create mode 100644 vendor/bootstrap/js/bootstrap.bundle.min.js
+ create mode 100644 vendor/bootstrap/js/bootstrap.bundle.min.js.map
+ create mode 100644 vendor/bootstrap/js/bootstrap.js
+ create mode 100644 vendor/bootstrap/js/bootstrap.js.map
+ create mode 100644 vendor/bootstrap/js/bootstrap.min.js
+ create mode 100644 vendor/bootstrap/js/bootstrap.min.js.map
+ create mode 100644 vendor/bootstrap/scss/_alert.scss
+ create mode 100644 vendor/bootstrap/scss/_badge.scss
+ create mode 100644 vendor/bootstrap/scss/_breadcrumb.scss
+ create mode 100644 vendor/bootstrap/scss/_button-group.scss
+ create mode 100644 vendor/bootstrap/scss/_buttons.scss
+ create mode 100644 vendor/bootstrap/scss/_card.scss
+ create mode 100644 vendor/bootstrap/scss/_carousel.scss
+ create mode 100644 vendor/bootstrap/scss/_close.scss
+ create mode 100644 vendor/bootstrap/scss/_code.scss
+ create mode 100644 vendor/bootstrap/scss/_custom-forms.scss
+ create mode 100644 vendor/bootstrap/scss/_dropdown.scss
+ create mode 100644 vendor/bootstrap/scss/_forms.scss
+ create mode 100644 vendor/bootstrap/scss/_functions.scss
+ create mode 100644 vendor/bootstrap/scss/_grid.scss
+ create mode 100644 vendor/bootstrap/scss/_images.scss
+ create mode 100644 vendor/bootstrap/scss/_input-group.scss
+ create mode 100644 vendor/bootstrap/scss/_jumbotron.scss
+ create mode 100644 vendor/bootstrap/scss/_list-group.scss
+ create mode 100644 vendor/bootstrap/scss/_media.scss
+ create mode 100644 vendor/bootstrap/scss/_mixins.scss
+ create mode 100644 vendor/bootstrap/scss/_modal.scss
+ create mode 100644 vendor/bootstrap/scss/_nav.scss
+ create mode 100644 vendor/bootstrap/scss/_navbar.scss
+ create mode 100644 vendor/bootstrap/scss/_pagination.scss
+ create mode 100644 vendor/bootstrap/scss/_popover.scss
+ create mode 100644 vendor/bootstrap/scss/_print.scss
+ create mode 100644 vendor/bootstrap/scss/_progress.scss
+ create mode 100644 vendor/bootstrap/scss/_reboot.scss
+ create mode 100644 vendor/bootstrap/scss/_root.scss
+ create mode 100644 vendor/bootstrap/scss/_spinners.scss
+ create mode 100644 vendor/bootstrap/scss/_tables.scss
+ create mode 100644 vendor/bootstrap/scss/_toasts.scss
+ create mode 100644 vendor/bootstrap/scss/_tooltip.scss
+ create mode 100644 vendor/bootstrap/scss/_transitions.scss
+ create mode 100644 vendor/bootstrap/scss/_type.scss
+ create mode 100644 vendor/bootstrap/scss/_utilities.scss
+ create mode 100644 vendor/bootstrap/scss/_variables.scss
+ create mode 100644 vendor/bootstrap/scss/bootstrap-grid.scss
+ create mode 100644 vendor/bootstrap/scss/bootstrap-reboot.scss
+ create mode 100644 vendor/bootstrap/scss/bootstrap.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_alert.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_background-variant.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_badge.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_border-radius.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_box-shadow.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_breakpoints.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_buttons.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_caret.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_clearfix.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_deprecate.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_float.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_forms.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_gradients.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_grid-framework.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_grid.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_hover.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_image.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_list-group.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_lists.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_nav-divider.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_pagination.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_reset-text.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_resize.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_screen-reader.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_size.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_table-row.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_text-emphasis.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_text-hide.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_text-truncate.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_transition.scss
+ create mode 100644 vendor/bootstrap/scss/mixins/_visibility.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_align.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_background.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_borders.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_clearfix.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_display.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_embed.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_flex.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_float.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_interactions.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_overflow.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_position.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_screenreaders.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_shadows.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_sizing.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_spacing.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_stretched-link.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_text.scss
+ create mode 100644 vendor/bootstrap/scss/utilities/_visibility.scss
+ create mode 100644 vendor/bootstrap/scss/vendor/_rfs.scss
+ create mode 100644 vendor/chart.js/Chart.bundle.js
+ create mode 100644 vendor/chart.js/Chart.bundle.min.js
+ create mode 100644 vendor/chart.js/Chart.js
+ create mode 100644 vendor/chart.js/Chart.min.js
+ create mode 100644 vendor/datatables/dataTables.bootstrap4.css
+ create mode 100644 vendor/datatables/dataTables.bootstrap4.js
+ create mode 100644 vendor/datatables/dataTables.bootstrap4.min.css
+ create mode 100644 vendor/datatables/dataTables.bootstrap4.min.js
+ create mode 100644 vendor/datatables/jquery.dataTables.js
+ create mode 100644 vendor/datatables/jquery.dataTables.min.js
+ create mode 100644 vendor/fontawesome-free/LICENSE.txt
+ create mode 100644 vendor/fontawesome-free/attribution.js
+ create mode 100644 vendor/fontawesome-free/css/all.css
+ create mode 100644 vendor/fontawesome-free/css/all.min.css
+ create mode 100644 vendor/fontawesome-free/css/brands.css
+ create mode 100644 vendor/fontawesome-free/css/brands.min.css
+ create mode 100644 vendor/fontawesome-free/css/fontawesome.css
+ create mode 100644 vendor/fontawesome-free/css/fontawesome.min.css
+ create mode 100644 vendor/fontawesome-free/css/regular.css
+ create mode 100644 vendor/fontawesome-free/css/regular.min.css
+ create mode 100644 vendor/fontawesome-free/css/solid.css
+ create mode 100644 vendor/fontawesome-free/css/solid.min.css
+ create mode 100644 vendor/fontawesome-free/css/svg-with-js.css
+ create mode 100644 vendor/fontawesome-free/css/svg-with-js.min.css
+ create mode 100644 vendor/fontawesome-free/css/v4-shims.css
+ create mode 100644 vendor/fontawesome-free/css/v4-shims.min.css
+ create mode 100644 vendor/fontawesome-free/js/all.js
+ create mode 100644 vendor/fontawesome-free/js/all.min.js
+ create mode 100644 vendor/fontawesome-free/js/brands.js
+ create mode 100644 vendor/fontawesome-free/js/brands.min.js
+ create mode 100644 vendor/fontawesome-free/js/conflict-detection.js
+ create mode 100644 vendor/fontawesome-free/js/conflict-detection.min.js
+ create mode 100644 vendor/fontawesome-free/js/fontawesome.js
+ create mode 100644 vendor/fontawesome-free/js/fontawesome.min.js
+ create mode 100644 vendor/fontawesome-free/js/regular.js
+ create mode 100644 vendor/fontawesome-free/js/regular.min.js
+ create mode 100644 vendor/fontawesome-free/js/solid.js
+ create mode 100644 vendor/fontawesome-free/js/solid.min.js
+ create mode 100644 vendor/fontawesome-free/js/v4-shims.js
+ create mode 100644 vendor/fontawesome-free/js/v4-shims.min.js
+ create mode 100644 vendor/fontawesome-free/less/_animated.less
+ create mode 100644 vendor/fontawesome-free/less/_bordered-pulled.less
+ create mode 100644 vendor/fontawesome-free/less/_core.less
+ create mode 100644 vendor/fontawesome-free/less/_fixed-width.less
+ create mode 100644 vendor/fontawesome-free/less/_icons.less
+ create mode 100644 vendor/fontawesome-free/less/_larger.less
+ create mode 100644 vendor/fontawesome-free/less/_list.less
+ create mode 100644 vendor/fontawesome-free/less/_mixins.less
+ create mode 100644 vendor/fontawesome-free/less/_rotated-flipped.less
+ create mode 100644 vendor/fontawesome-free/less/_screen-reader.less
+ create mode 100644 vendor/fontawesome-free/less/_shims.less
+ create mode 100644 vendor/fontawesome-free/less/_stacked.less
+ create mode 100644 vendor/fontawesome-free/less/_variables.less
+ create mode 100644 vendor/fontawesome-free/less/brands.less
+ create mode 100644 vendor/fontawesome-free/less/fontawesome.less
+ create mode 100644 vendor/fontawesome-free/less/regular.less
+ create mode 100644 vendor/fontawesome-free/less/solid.less
+ create mode 100644 vendor/fontawesome-free/less/v4-shims.less
+ create mode 100644 vendor/fontawesome-free/metadata/categories.yml
+ create mode 100644 vendor/fontawesome-free/metadata/icons.yml
+ create mode 100644 vendor/fontawesome-free/metadata/shims.yml
+ create mode 100644 vendor/fontawesome-free/metadata/sponsors.yml
+ create mode 100644 vendor/fontawesome-free/package.json
+ create mode 100644 vendor/fontawesome-free/scss/_animated.scss
+ create mode 100644 vendor/fontawesome-free/scss/_bordered-pulled.scss
+ create mode 100644 vendor/fontawesome-free/scss/_core.scss
+ create mode 100644 vendor/fontawesome-free/scss/_fixed-width.scss
+ create mode 100644 vendor/fontawesome-free/scss/_icons.scss
+ create mode 100644 vendor/fontawesome-free/scss/_larger.scss
+ create mode 100644 vendor/fontawesome-free/scss/_list.scss
+ create mode 100644 vendor/fontawesome-free/scss/_mixins.scss
+ create mode 100644 vendor/fontawesome-free/scss/_rotated-flipped.scss
+ create mode 100644 vendor/fontawesome-free/scss/_screen-reader.scss
+ create mode 100644 vendor/fontawesome-free/scss/_shims.scss
+ create mode 100644 vendor/fontawesome-free/scss/_stacked.scss
+ create mode 100644 vendor/fontawesome-free/scss/_variables.scss
+ create mode 100644 vendor/fontawesome-free/scss/brands.scss
+ create mode 100644 vendor/fontawesome-free/scss/fontawesome.scss
+ create mode 100644 vendor/fontawesome-free/scss/regular.scss
+ create mode 100644 vendor/fontawesome-free/scss/solid.scss
+ create mode 100644 vendor/fontawesome-free/scss/v4-shims.scss
+ create mode 100644 vendor/fontawesome-free/sprites/brands.svg
+ create mode 100644 vendor/fontawesome-free/sprites/regular.svg
+ create mode 100644 vendor/fontawesome-free/sprites/solid.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/500px.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/accessible-icon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/accusoft.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/adn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/adversal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/affiliatetheme.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/airbnb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/algolia.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/alipay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/amazon-pay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/amazon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/amilia.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/android.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/angellist.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/angrycreative.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/angular.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/app-store-ios.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/app-store.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/apper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/apple-pay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/apple.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/artstation.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/asymmetrik.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/atlassian.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/audible.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/autoprefixer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/avianex.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/aviato.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/aws.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bandcamp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/battle-net.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/behance-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/behance.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bimobject.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bitbucket.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bitcoin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bity.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/black-tie.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/blackberry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/blogger-b.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/blogger.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bluetooth-b.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bluetooth.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/bootstrap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/btc.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/buffer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/buromobelexperte.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/buy-n-large.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/buysellads.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-amex.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-diners-club.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-discover.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-jcb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-mastercard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-paypal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-stripe.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cc-visa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/centercode.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/centos.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/chrome.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/chromecast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cloudflare.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cloudscale.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cloudsmith.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cloudversify.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/codepen.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/codiepie.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/confluence.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/connectdevelop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/contao.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cotton-bureau.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cpanel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-by.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-nc-eu.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-nc-jp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-nc.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-nd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-pd-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-pd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-remix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-sa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-sampling-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-sampling.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-share.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons-zero.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/creative-commons.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/critical-role.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/css3-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/css3.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/cuttlefish.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/d-and-d-beyond.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/d-and-d.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dailymotion.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dashcube.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/deezer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/delicious.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/deploydog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/deskpro.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dev.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/deviantart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dhl.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/diaspora.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/digg.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/digital-ocean.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/discord.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/discourse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dochub.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/docker.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/draft2digital.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dribbble-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dribbble.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dropbox.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/drupal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/dyalog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/earlybirds.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ebay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/edge-legacy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/edge.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/elementor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ello.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ember.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/empire.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/envira.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/erlang.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ethereum.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/etsy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/evernote.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/expeditedssl.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/facebook-f.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/facebook-messenger.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/facebook-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/facebook.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fantasy-flight-games.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fedex.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fedora.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/figma.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/firefox-browser.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/firefox.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/first-order-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/first-order.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/firstdraft.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/flickr.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/flipboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fly.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/font-awesome-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/font-awesome-flag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/font-awesome-logo-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/font-awesome.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fonticons-fi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fonticons.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fort-awesome-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fort-awesome.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/forumbee.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/foursquare.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/free-code-camp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/freebsd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/fulcrum.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/galactic-republic.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/galactic-senate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/get-pocket.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gg-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gg.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/git-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/git-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/git.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/github-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/github-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/github.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gitkraken.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gitlab.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gitter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/glide-g.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/glide.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gofore.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/goodreads-g.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/goodreads.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-drive.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-pay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-play.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-plus-g.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-plus-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google-wallet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/google.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gratipay.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/grav.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gripfire.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/grunt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/guilded.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/gulp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hacker-news-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hacker-news.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hackerrank.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hips.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hire-a-helper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hive.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hooli.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hornbill.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hotjar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/houzz.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/html5.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/hubspot.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ideal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/imdb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/innosoft.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/instagram-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/instagram.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/instalod.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/intercom.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/internet-explorer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/invision.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ioxhost.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/itch-io.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/itunes-note.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/itunes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/java.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/jedi-order.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/jenkins.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/jira.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/joget.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/joomla.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/js-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/js.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/jsfiddle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/kaggle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/keybase.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/keycdn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/kickstarter-k.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/kickstarter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/korvue.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/laravel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/lastfm-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/lastfm.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/leanpub.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/less.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/line.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/linkedin-in.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/linkedin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/linode.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/linux.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/lyft.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/magento.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mailchimp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mandalorian.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/markdown.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mastodon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/maxcdn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mdb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/medapps.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/medium-m.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/medium.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/medrt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/meetup.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/megaport.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mendeley.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/microblog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/microsoft.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mixcloud.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mixer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/mizuni.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/modx.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/monero.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/napster.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/neos.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/nimblr.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/node-js.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/node.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/npm.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ns8.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/nutritionix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/octopus-deploy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/odnoklassniki-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/odnoklassniki.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/old-republic.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/opencart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/openid.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/opera.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/optin-monster.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/orcid.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/osi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/page4.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pagelines.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/palfed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/patreon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/paypal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/penny-arcade.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/perbyte.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/periscope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/phabricator.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/phoenix-framework.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/phoenix-squadron.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/php.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pied-piper-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pied-piper-hat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pied-piper-pp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pied-piper-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pied-piper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pinterest-p.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pinterest-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pinterest.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/playstation.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/product-hunt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/pushed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/python.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/qq.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/quinscape.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/quora.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/r-project.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/raspberry-pi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ravelry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/react.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/reacteurope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/readme.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/rebel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/red-river.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/reddit-alien.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/reddit-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/reddit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/redhat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/renren.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/replyd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/researchgate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/resolving.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/rev.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/rocketchat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/rockrms.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/rust.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/safari.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/salesforce.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/schlix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/scribd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/searchengin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sellcast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sellsy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/servicestack.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/shirtsinbulk.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/shopify.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/shopware.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/simplybuilt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sistrix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sith.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sketch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/skyatlas.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/skype.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/slack-hash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/slack.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/slideshare.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/snapchat-ghost.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/snapchat-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/snapchat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/soundcloud.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sourcetree.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/speakap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/speaker-deck.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/spotify.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/squarespace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stack-exchange.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stack-overflow.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stackpath.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/staylinked.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/steam-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/steam-symbol.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/steam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/sticker-mule.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/strava.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stripe-s.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stripe.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/studiovinari.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stumbleupon-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/stumbleupon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/superpowers.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/supple.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/suse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/swift.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/symfony.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/teamspeak.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/telegram-plane.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/telegram.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/tencent-weibo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/the-red-yeti.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/themeco.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/themeisle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/think-peaks.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/tiktok.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/trade-federation.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/trello.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/tripadvisor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/tumblr-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/tumblr.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/twitch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/twitter-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/twitter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/typo3.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/uber.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ubuntu.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/uikit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/umbraco.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/uncharted.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/uniregistry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/unity.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/unsplash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/untappd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ups.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/usb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/usps.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/ussunnah.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vaadin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/viacoin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/viadeo-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/viadeo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/viber.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vimeo-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vimeo-v.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vimeo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vine.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vk.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vnv.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/vuejs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/watchman-monitoring.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/waze.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/weebly.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/weibo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/weixin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/whatsapp-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/whatsapp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/whmcs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wikipedia-w.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/windows.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wix.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wizards-of-the-coast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wodu.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wolf-pack-battalion.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wordpress-simple.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wordpress.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wpbeginner.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wpexplorer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wpforms.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/wpressr.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/xbox.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/xing-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/xing.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/y-combinator.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yahoo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yammer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yandex-international.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yandex.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yarn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yelp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/yoast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/youtube-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/youtube.svg
+ create mode 100644 vendor/fontawesome-free/svgs/brands/zhihu.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/address-book.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/address-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/angry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/arrow-alt-circle-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/arrow-alt-circle-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/arrow-alt-circle-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/arrow-alt-circle-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/bell-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/bell.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/bookmark.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/building.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar-minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar-times.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/calendar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/caret-square-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/caret-square-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/caret-square-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/caret-square-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/chart-bar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/check-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/check-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/clipboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/clock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/clone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/closed-captioning.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/comment-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/comment-dots.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/comment.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/comments.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/compass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/copy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/copyright.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/credit-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/dizzy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/dot-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/edit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/envelope-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/envelope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/eye-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/eye.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-archive.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-audio.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-code.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-excel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-image.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-pdf.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-powerpoint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-video.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file-word.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/file.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/flag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/flushed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/folder-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/folder.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/font-awesome-logo-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/frown-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/frown.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/futbol.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/gem.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grimace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-beam-sweat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-hearts.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-squint-tears.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-stars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-tears.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-tongue-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-tongue-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-tongue.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/grin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-lizard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-paper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-peace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-point-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-point-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-point-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-point-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-pointer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-rock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-scissors.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hand-spock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/handshake.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hdd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/heart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hospital.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/hourglass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/id-badge.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/id-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/image.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/images.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/keyboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/kiss-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/kiss-wink-heart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/kiss.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/laugh-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/laugh-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/laugh-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/laugh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/lemon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/life-ring.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/lightbulb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/list-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/map.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/meh-blank.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/meh-rolling-eyes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/meh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/minus-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/money-bill-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/moon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/newspaper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/object-group.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/object-ungroup.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/paper-plane.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/pause-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/play-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/plus-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/question-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/registered.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/sad-cry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/sad-tear.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/save.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/share-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/smile-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/smile-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/smile.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/snowflake.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/star-half.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/star.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/sticky-note.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/stop-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/sun.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/surprise.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/thumbs-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/thumbs-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/times-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/tired.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/trash-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/user-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/user.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/window-close.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/window-maximize.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/window-minimize.svg
+ create mode 100644 vendor/fontawesome-free/svgs/regular/window-restore.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ad.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/address-book.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/address-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/adjust.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/air-freshener.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/align-center.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/align-justify.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/align-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/align-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/allergies.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ambulance.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/american-sign-language-interpreting.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/anchor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-double-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-double-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-double-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-double-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angle-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/angry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ankh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/apple-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/archive.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/archway.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-alt-circle-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-alt-circle-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-alt-circle-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-alt-circle-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-circle-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-circle-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-circle-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-circle-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrow-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrows-alt-h.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrows-alt-v.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/arrows-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/assistive-listening-systems.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/asterisk.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/at.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/atlas.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/atom.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/audio-description.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/award.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/baby-carriage.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/baby.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/backspace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/backward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bacon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bacteria.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bacterium.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bahai.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/balance-scale-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/balance-scale-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/balance-scale.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ban.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/band-aid.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/barcode.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/baseball-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/basketball-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bath.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/battery-empty.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/battery-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/battery-half.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/battery-quarter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/battery-three-quarters.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/beer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bell-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bell.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bezier-curve.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bible.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bicycle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/biking.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/binoculars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/biohazard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/birthday-cake.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/blender-phone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/blender.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/blind.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/blog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bold.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bolt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bomb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bong.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/book-dead.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/book-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/book-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/book-reader.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/book.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bookmark.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/border-all.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/border-none.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/border-style.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bowling-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/box-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/box-tissue.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/box.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/boxes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/braille.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/brain.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bread-slice.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/briefcase-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/briefcase.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/broadcast-tower.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/broom.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/brush.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bug.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/building.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bullhorn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bullseye.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/burn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bus-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/bus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/business-time.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calculator.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-day.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-times.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar-week.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/calendar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/camera-retro.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/camera.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/campground.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/candy-cane.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cannabis.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/capsules.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/car-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/car-battery.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/car-crash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/car-side.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/car.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caravan.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-square-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-square-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-square-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-square-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/caret-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/carrot.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cart-arrow-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cart-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cash-register.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/certificate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chair.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chalkboard-teacher.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chalkboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/charging-station.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chart-area.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chart-bar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chart-line.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chart-pie.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/check-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/check-double.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/check-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cheese.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-bishop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-board.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-king.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-knight.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-pawn.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-queen.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess-rook.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chess.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-circle-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-circle-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-circle-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-circle-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/chevron-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/child.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/church.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/circle-notch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/city.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clinic-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clipboard-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clipboard-list.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clipboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/clone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/closed-captioning.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-download-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-meatball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-moon-rain.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-moon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-rain.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-showers-heavy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-sun-rain.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-sun.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud-upload-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cloud.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cocktail.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/code-branch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/code.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/coffee.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cogs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/coins.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/columns.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment-dollar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment-dots.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comment.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comments-dollar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/comments.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/compact-disc.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/compass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/compress-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/compress-arrows-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/compress.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/concierge-bell.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cookie-bite.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cookie.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/copy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/copyright.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/couch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/credit-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crop-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cross.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crosshairs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crow.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crown.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/crutch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cube.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cubes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/cut.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/database.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/deaf.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/democrat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/desktop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dharmachakra.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/diagnoses.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-d20.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-d6.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-five.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-four.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-one.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-six.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-three.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice-two.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dice.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/digital-tachograph.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/directions.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/disease.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/divide.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dizzy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dna.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dollar-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dolly-flatbed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dolly.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/donate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/door-closed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/door-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dot-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dove.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/download.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/drafting-compass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dragon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/draw-polygon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/drum-steelpan.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/drum.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/drumstick-bite.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dumbbell.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dumpster-fire.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dumpster.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/dungeon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/edit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/egg.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/eject.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ellipsis-h.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ellipsis-v.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/envelope-open-text.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/envelope-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/envelope-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/envelope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/equals.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/eraser.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ethernet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/euro-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/exchange-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/exclamation-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/exclamation-triangle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/exclamation.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/expand-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/expand-arrows-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/expand.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/external-link-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/external-link-square-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/eye-dropper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/eye-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/eye.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fan.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fast-backward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fast-forward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/faucet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fax.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/feather-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/feather.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/female.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fighter-jet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-archive.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-audio.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-code.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-contract.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-csv.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-download.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-excel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-export.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-image.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-import.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-invoice-dollar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-invoice.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-medical-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-pdf.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-powerpoint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-prescription.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-signature.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-upload.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-video.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file-word.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/file.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fill-drip.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fill.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/film.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/filter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fingerprint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fire-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fire-extinguisher.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fire.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/first-aid.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fish.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/fist-raised.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/flag-checkered.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/flag-usa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/flag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/flask.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/flushed.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/folder-minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/folder-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/folder-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/folder.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/font-awesome-logo-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/font.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/football-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/forward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/frog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/frown-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/frown.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/funnel-dollar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/futbol.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gamepad.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gas-pump.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gavel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gem.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/genderless.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ghost.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gift.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gifts.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/glass-cheers.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/glass-martini-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/glass-martini.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/glass-whiskey.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/glasses.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/globe-africa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/globe-americas.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/globe-asia.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/globe-europe.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/globe.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/golf-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/gopuram.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/graduation-cap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/greater-than-equal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/greater-than.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grimace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-beam-sweat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-hearts.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-squint-tears.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-stars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-tears.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-tongue-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-tongue-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-tongue.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grip-horizontal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grip-lines-vertical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grip-lines.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/grip-vertical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/guitar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/h-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hamburger.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hammer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hamsa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-holding-heart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-holding-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-holding-usd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-holding-water.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-holding.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-lizard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-middle-finger.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-paper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-peace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-point-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-point-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-point-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-point-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-pointer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-rock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-scissors.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-sparkles.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hand-spock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hands-helping.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hands-wash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hands.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/handshake-alt-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/handshake-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/handshake.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hanukiah.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hard-hat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hashtag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hat-cowboy-side.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hat-cowboy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hat-wizard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hdd.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/head-side-cough-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/head-side-cough.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/head-side-mask.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/head-side-virus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/heading.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/headphones-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/headphones.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/headset.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/heart-broken.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/heart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/heartbeat.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/helicopter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/highlighter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hiking.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hippo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/history.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hockey-puck.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/holly-berry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/home.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/horse-head.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/horse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hospital-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hospital-symbol.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hospital-user.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hospital.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hot-tub.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hotdog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hotel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hourglass-end.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hourglass-half.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hourglass-start.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hourglass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/house-damage.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/house-user.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/hryvnia.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/i-cursor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ice-cream.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/icicles.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/icons.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/id-badge.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/id-card-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/id-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/igloo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/image.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/images.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/inbox.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/indent.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/industry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/infinity.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/info-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/info.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/italic.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/jedi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/joint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/journal-whills.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/kaaba.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/key.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/keyboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/khanda.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/kiss-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/kiss-wink-heart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/kiss.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/kiwi-bird.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/landmark.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/language.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laptop-code.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laptop-house.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laptop-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laptop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laugh-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laugh-squint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laugh-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/laugh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/layer-group.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/leaf.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lemon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/less-than-equal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/less-than.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/level-down-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/level-up-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/life-ring.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lightbulb.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/link.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lira-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/list-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/list-ol.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/list-ul.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/list.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/location-arrow.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lock-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/long-arrow-alt-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/long-arrow-alt-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/long-arrow-alt-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/long-arrow-alt-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/low-vision.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/luggage-cart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lungs-virus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/lungs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/magic.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/magnet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mail-bulk.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/male.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-marked-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-marked.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-marker-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-marker.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-pin.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map-signs.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/map.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/marker.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mars-double.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mars-stroke-h.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mars-stroke-v.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mars-stroke.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mask.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/medal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/medkit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/meh-blank.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/meh-rolling-eyes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/meh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/memory.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/menorah.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mercury.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/meteor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microchip.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microphone-alt-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microphone-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microphone-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microphone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/microscope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/minus-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/minus-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mitten.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mobile-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mobile.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-bill-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-bill-wave-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-bill-wave.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-bill.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-check-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/money-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/monument.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/moon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mortar-pestle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mosque.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/motorcycle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mountain.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mouse-pointer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mouse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/mug-hot.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/music.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/network-wired.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/neuter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/newspaper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/not-equal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/notes-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/object-group.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/object-ungroup.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/oil-can.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/om.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/otter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/outdent.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pager.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paint-brush.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paint-roller.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/palette.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pallet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paper-plane.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paperclip.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/parachute-box.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paragraph.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/parking.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/passport.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pastafarianism.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paste.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pause-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pause.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/paw.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/peace.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pen-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pen-fancy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pen-nib.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pen-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pen.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pencil-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pencil-ruler.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/people-arrows.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/people-carry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pepper-hot.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/percent.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/percentage.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/person-booth.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone-square-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone-volume.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/phone.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/photo-video.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/piggy-bank.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pills.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pizza-slice.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/place-of-worship.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plane-arrival.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plane-departure.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plane-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plane.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/play-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/play.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plug.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plus-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plus-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/podcast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/poll-h.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/poll.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/poo-storm.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/poo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/poop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/portrait.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pound-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/power-off.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pray.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/praying-hands.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/prescription-bottle-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/prescription-bottle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/prescription.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/print.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/procedures.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/project-diagram.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pump-medical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/pump-soap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/puzzle-piece.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/qrcode.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/question-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/question.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/quidditch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/quote-left.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/quote-right.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/quran.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/radiation-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/radiation.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/rainbow.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/random.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/receipt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/record-vinyl.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/recycle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/redo-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/redo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/registered.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/remove-format.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/reply-all.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/reply.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/republican.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/restroom.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/retweet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ribbon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ring.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/road.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/robot.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/rocket.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/route.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/rss-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/rss.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ruble-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ruler-combined.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ruler-horizontal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ruler-vertical.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ruler.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/running.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/rupee-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sad-cry.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sad-tear.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/satellite-dish.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/satellite.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/save.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/school.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/screwdriver.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/scroll.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sd-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/search-dollar.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/search-location.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/search-minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/search-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/search.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/seedling.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/server.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shapes.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/share-alt-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/share-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/share-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/share.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shekel-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shield-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shield-virus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ship.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shipping-fast.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shoe-prints.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shopping-bag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shopping-basket.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shopping-cart.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shower.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/shuttle-van.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sign-in-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sign-language.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sign-out-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/signal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/signature.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sim-card.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sitemap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/skating.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/skiing-nordic.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/skiing.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/skull-crossbones.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/skull.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sleigh.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sliders-h.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smile-beam.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smile-wink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smile.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smoking-ban.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/smoking.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sms.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/snowboarding.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/snowflake.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/snowman.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/snowplow.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/soap.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/socks.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/solar-panel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-alpha-down-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-alpha-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-alpha-up-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-alpha-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-amount-down-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-amount-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-amount-up-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-amount-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-numeric-down-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-numeric-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-numeric-up-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-numeric-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sort.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/spa.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/space-shuttle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/spell-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/spider.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/spinner.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/splotch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/spray-can.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/square-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/square-root-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stamp.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star-and-crescent.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star-half-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star-half.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star-of-david.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star-of-life.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/star.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/step-backward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/step-forward.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stethoscope.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sticky-note.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stop-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stop.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stopwatch-20.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stopwatch.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/store-alt-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/store-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/store-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/store.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stream.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/street-view.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/strikethrough.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/stroopwafel.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/subscript.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/subway.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/suitcase-rolling.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/suitcase.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sun.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/superscript.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/surprise.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/swatchbook.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/swimmer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/swimming-pool.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/synagogue.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sync-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/sync.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/syringe.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/table-tennis.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/table.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tablet-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tablet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tablets.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tachometer-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tags.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tape.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tasks.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/taxi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/teeth-open.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/teeth.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/temperature-high.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/temperature-low.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tenge.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/terminal.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/text-height.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/text-width.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/th-large.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/th-list.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/th.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/theater-masks.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer-empty.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer-full.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer-half.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer-quarter.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer-three-quarters.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thermometer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thumbs-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thumbs-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/thumbtack.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/ticket-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/times-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/times.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tint-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tint.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tired.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toggle-off.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toggle-on.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toilet-paper-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toilet-paper.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toilet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/toolbox.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tools.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tooth.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/torah.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/torii-gate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tractor.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trademark.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/traffic-light.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trailer.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/train.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tram.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/transgender-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/transgender.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trash-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trash-restore-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trash-restore.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tree.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/trophy.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/truck-loading.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/truck-monster.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/truck-moving.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/truck-pickup.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/truck.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tshirt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tty.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/tv.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/umbrella-beach.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/umbrella.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/underline.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/undo-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/undo.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/universal-access.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/university.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/unlink.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/unlock-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/unlock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/upload.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-alt-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-astronaut.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-check.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-circle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-clock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-cog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-edit.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-friends.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-graduate.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-injured.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-lock.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-md.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-minus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-ninja.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-nurse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-plus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-secret.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-shield.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-tag.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-tie.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user-times.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/user.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/users-cog.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/users-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/users.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/utensil-spoon.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/utensils.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vector-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/venus-double.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/venus-mars.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/venus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vest-patches.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vest.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vial.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vials.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/video-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/video.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vihara.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/virus-slash.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/virus.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/viruses.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/voicemail.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/volleyball-ball.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/volume-down.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/volume-mute.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/volume-off.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/volume-up.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vote-yea.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/vr-cardboard.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/walking.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wallet.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/warehouse.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/water.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wave-square.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/weight-hanging.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/weight.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wheelchair.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wifi.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wind.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/window-close.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/window-maximize.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/window-minimize.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/window-restore.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wine-bottle.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wine-glass-alt.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wine-glass.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/won-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/wrench.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/x-ray.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/yen-sign.svg
+ create mode 100644 vendor/fontawesome-free/svgs/solid/yin-yang.svg
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-brands-400.eot
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-brands-400.svg
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-brands-400.ttf
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-brands-400.woff
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-brands-400.woff2
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-regular-400.eot
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-regular-400.svg
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-regular-400.ttf
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-regular-400.woff
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-regular-400.woff2
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-solid-900.eot
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-solid-900.svg
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-solid-900.ttf
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-solid-900.woff
+ create mode 100644 vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+ create mode 100644 vendor/jquery-easing/jquery.easing.compatibility.js
+ create mode 100644 vendor/jquery-easing/jquery.easing.js
+ create mode 100644 vendor/jquery-easing/jquery.easing.min.js
+ create mode 100644 vendor/jquery/jquery.js
+ create mode 100644 vendor/jquery/jquery.min.js
+ create mode 100644 vendor/jquery/jquery.min.map
+ create mode 100644 vendor/jquery/jquery.slim.js
+ create mode 100644 vendor/jquery/jquery.slim.min.js
+ create mode 100644 vendor/jquery/jquery.slim.min.map
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (master)
+$ git branch -M main
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (main)
+$ git remote add origin https://github.com/noobvarrios/proyectou1_DWA_BallinasBarriosSamayoa.git
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (main)
+$ git push -u origin main
+Enumerating objects: 1871, done.
+Counting objects: 100% (1871/1871), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1869/1869), done.
+Writing objects: 100% (1871/1871), 4.73 MiB | 1.79 MiB/s, done.
+Total 1871 (delta 207), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (207/207), done.
+To https://github.com/noobvarrios/proyectou1_DWA_BallinasBarriosSamayoa.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Osadi@DESKTOP-C3OS9R4 MINGW64 /c/xampp/htdocs/DWA (main)
+$
